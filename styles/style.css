@@ -5,22 +5,22 @@
 
 /* Header */
 .header {
- 
+
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)), url('../images/donation4.jpg');
+            rgba(0, 0, 0, 0.5)), url('../images/donation4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-     
+
 }
 
 .banner {
     text-align: center;
-    padding-top: 274px ;
+    padding-top: 274px;
     padding-bottom: 310px;
     width: 100%;
     margin: 0 0px;
-    
+
 }
 
 .banner-title {
@@ -43,8 +43,89 @@
     border-radius: 8px;
     border: 0;
     color: white;
-    padding: 16px 20px; 
+    padding: 16px 20px;
     /* font-weight: 600; */
     font-size: 20px;
     margin-top: 30px;
+}
+
+/* Donate Styles */
+
+.takar-heading {
+    text-align: center;
+    margin-top: 130px;
+
+}
+
+.takar-title {
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.takar-info {
+    font-weight: 400;
+    font-size: 20px;
+    color: #707070;
+    margin: 0 558px;
+}
+
+.takar-box {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+
+
+
+
+}
+
+.taka {
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #707070;
+    border-radius: 5px;
+    width: 136px;
+    height: 123px;
+    border: 0ch;
+    background: #f8f8f8;
+    text-align: center;
+
+
+}
+.money{
+    margin-top: 45px;
+}
+
+.taka-2{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    width: 136px;
+    height: 123px;
+}
+.money-2 {
+    margin-top: 45px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #FF5959;
+}
+.others{
+    text-align: center;
+    margin-top: 60px;
+}
+.other-amount{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+
+    
+}
+.others hr{
+    width: 40%;
+    margin: 0 auto;
 }
