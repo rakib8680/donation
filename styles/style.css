@@ -168,7 +168,7 @@
     padding: 0 30px 53px 15px;
 }
 .card3{
-    background-color: rgba(255, 176, 31, 0.341);
+    background-color: rgba(255, 204, 0, 0.19);
     border-radius: 5px;
     border: 0;
     padding: 0 30px 53px 15px;
@@ -183,4 +183,36 @@
     color: #707070;
     font-weight: 400;   
     padding-right: 10px;
+}
+
+/* Blogs style */
+
+.blogs{
+    display: flex;
+    gap: 85px;
+    margin: 150px 300px 0 300px;
+
+}
+
+.right-img img{
+    border: 0;
+    border-radius: 10px;
+}
+
+.left-blog{
+    text-align: left;
+    margin-top: 100px;
+    
+}
+.blog-title{
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.blog-info{
+    color: #707070;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
